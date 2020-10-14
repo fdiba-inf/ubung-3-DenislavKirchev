@@ -7,10 +7,10 @@ public class NamePrinter{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter word: ");
+        System.out.println("Enter word: ");
         String name = input.next();
 
-        for(int i = 0; i <= name.length(); i++){
+        for(int i = 0; i < name.length(); i++){
           System.out.println("* "+ name.charAt(i) +" *");
         }
     }
