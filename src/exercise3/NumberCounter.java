@@ -29,8 +29,8 @@ public class NumberCounter{
 
     System.out.println("Positive numbers: "+positiveCounter);
     System.out.println("Negative numbers: "+negativeCounter);
-    System.out.println("Sum:  "+sum);
-    System.out.println("Average:  "+ (average/counter));
+    System.out.println("Sum: "+sum);
+    System.out.println("Average: "+ (average/counter));
 
   }
 }
