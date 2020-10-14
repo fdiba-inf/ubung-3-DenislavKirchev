@@ -15,8 +15,10 @@ public class NumberSearch {
             counter=0;
             System.out.print(i);
             System.out.println();
+          }else{
+            System.out.print(i + " ");
           }
-          System.out.print(i + " ");
+          
         }
       }
     }
