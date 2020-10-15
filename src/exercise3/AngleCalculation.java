@@ -19,12 +19,12 @@ public class AngleCalculation {
           }else{
 
             double radiant = angle * (Math.PI/180.00);
-            System.out.println("Radiant: " + radiant + "r");
+            System.out.println("Angle: " + radiant + "r");
 
           }
           angle = input.nextDouble();
           unit = input.next().charAt(0);
-          
+
         }while(unit == 'r' || unit == 'd');
     }
 }
