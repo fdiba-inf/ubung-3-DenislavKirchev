@@ -16,15 +16,16 @@ public class Triangle {
 
         do{
           if(a<b+c && b<a+c && c<a+b){
-            double s = (a+b+c)/2.0;
-            double area = Math.sqrt(s * (s-a) * (s-b) * (s-c));
-            if(a==b || b==c || c==a){
-              type = "isosceles";
-            }else if(a==b && b==c && c==a){
+            
+            if(a==b && b==c && c==a){
               type = "equilateral";
+            }else if(a==b || b==c || c==a){
+              type = "isosceles";
             }else{
               type = "scalene";
             }
+            double s = (a+b+c)/2.0;
+            double area = Math.sqrt(s * (s-a) * (s-b) * (s-c));
             System.out.println("Area: " + area);
             System.out.println("Triangle: " + type);
 
